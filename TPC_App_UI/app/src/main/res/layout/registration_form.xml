@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/TPC_App_UI"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="110dp">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="44dp"
+        android:background="#4B1C47"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:text="Registration Form"
+        android:textColor="#FF5722"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/contact_no"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Last Name "
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <EditText
+        android:id="@+id/contact_no2"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="example@cuchd.in"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="UID"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <EditText
+        android:id="@+id/contact_no6"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <EditText
+        android:id="@+id/contact_no4"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Course"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <EditText
+        android:id="@+id/contact_no5"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <EditText
+        android:id="@+id/contact_no3"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart=""
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:srcCompat="@drawable/tpc_logo_1" />
+
+    <Button
+        android:id="@+id/submit_now"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_btn"
+        android:text="Submit Now"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:backgroundTint="#4B1C47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="665dp" />

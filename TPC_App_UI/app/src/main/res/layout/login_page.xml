@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/TPC_App_UI">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="412dp"
+        android:layout_height="53dp"
+        android:background="#4B1C47"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tpc_logo_1"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart="@drawable/user_16_1"
+        android:drawablePadding="10dp"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:drawableStart="@drawable/pwd_icon"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="116dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#4B1C47"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#4B1C47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="354dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
